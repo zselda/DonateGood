@@ -1,6 +1,8 @@
-# final_project
+# Final_project
 
-Donation App
+Donation App - DonateGood
+
+This application is designed for enabling users to make donations easily.
 
 ## Getting Started
 
