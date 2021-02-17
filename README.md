@@ -4,6 +4,11 @@ Donation App - DonateGood
 
 This application is designed for enabling users to make donations easily.
 
+!! To activate Google Maps, API KEY should be inserted into android/app/src/main/AndroidManifest.xml file. 
+Please look fro "API KEY HERE" line. !!
+
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
