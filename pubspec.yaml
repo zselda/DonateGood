@@ -61,6 +61,10 @@ flutter:
     - assets/fashion.png
     - assets/003-banknote.png
     - assets/toys.png
+    - assets/ahtapot.jpg
+    - assets/dem.png
+    - assets/tema.jpg
+    - assets/tohum.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

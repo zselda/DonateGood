@@ -27,12 +27,13 @@ class MapPageState extends State<MapPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.deepPurple,
         leading: IconButton(
             icon: Icon(FontAwesomeIcons.arrowLeft),
             onPressed: () {
              gotoHomePage(context);
             }),
-        title: Text("Istanbul"),
+        title: Text("Levent, Istanbul"),
         actions: <Widget>[
           IconButton(
               icon: Icon(FontAwesomeIcons.search),
@@ -113,8 +114,8 @@ class MapPageState extends State<MapPage> {
               padding: const EdgeInsets.all(8.0),
               child: _boxes(
                   "https://media-exp1.licdn.com/dms/image/C4D0BAQFHusHjsW9bHA/company-logo_200_200/0/1583146069688?e=2159024400&v=beta&t=oOANT8LM2MUK2EPZ4txsXhbLr9FAI0QnypbAykf9uU8",
-                  41.078025,
-                  29.019080,
+                  41.081033,
+                  29.013332,
                   "AÇEV"),
             ),
             SizedBox(width: 10.0),
@@ -122,8 +123,8 @@ class MapPageState extends State<MapPage> {
               padding: const EdgeInsets.all(8.0),
               child: _boxes(
                   "https://pbs.twimg.com/profile_images/1232387986119065600/GEx4_aZx_400x400.jpg",
-                  41.075987,
-                  29.017706,
+                  41.079578,
+                  29.024626,
                   "Ahbap"),
             ),
           ],
@@ -239,7 +240,7 @@ class MapPageState extends State<MapPage> {
         SizedBox(height: 5.0),
         Container(
             child: Text(
-          "Closed \u00B7 Opens 8:30 - 17:30",
+          "Opens \u00B7 Closes 8:30 - 17:30",
           style: TextStyle(
               color: Colors.black54,
               fontSize: 18.0,
@@ -288,7 +289,7 @@ BitmapDescriptor.hueViolet,
 ),
 Marker(
 markerId: MarkerId('acev'),
-position: LatLng(41.078025, 29.019080),
+position: LatLng(41.081033,29.013332),
 infoWindow: InfoWindow(title: 'AÇEV'),
 icon: BitmapDescriptor.defaultMarkerWithHue(
 BitmapDescriptor.hueViolet,
@@ -296,32 +297,64 @@ BitmapDescriptor.hueViolet,
 ),
 Marker(
 markerId: MarkerId('ahbap'),
-position: LatLng(41.075987, 29.017706),
+position: LatLng(41.079578,29.024626),
 infoWindow: InfoWindow(title: 'Ahbap'),
 icon: BitmapDescriptor.defaultMarkerWithHue(
 BitmapDescriptor.hueViolet,
 ),
 ),
 Marker(
-markerId: MarkerId('levent'),
-position: LatLng(41.079901, 29.020762),
+markerId: MarkerId('kadıköy'),
+position: LatLng(40.994411,29.034669),
 infoWindow: InfoWindow(title: 'TOG'),
 icon: BitmapDescriptor.defaultMarkerWithHue(
 BitmapDescriptor.hueViolet,
 ),
 ),
 Marker(
-markerId: MarkerId('levent2'),
-position: LatLng(41.079448, 29.023811),
+markerId: MarkerId('beşiktaş'),
+position: LatLng(41.044404,29.004556),
 infoWindow: InfoWindow(title: 'Haytap'),
 icon: BitmapDescriptor.defaultMarkerWithHue(
 BitmapDescriptor.hueViolet,
 ),
 ),
 Marker(
-markerId: MarkerId('levent3'),
-position: LatLng(41.081551, 29.019645),
+markerId: MarkerId('şişli'),
+position: LatLng(41.060327,28.985122),
 infoWindow: InfoWindow(title: 'Kaçuv'),
+icon: BitmapDescriptor.defaultMarkerWithHue(
+BitmapDescriptor.hueViolet,
+),
+),
+Marker(
+    markerId: MarkerId('kadiköy2'),
+    position: LatLng(40.991301,29.035795),
+    infoWindow: InfoWindow(title: 'Ahtapot'),
+    icon: BitmapDescriptor.defaultMarkerWithHue(
+      BitmapDescriptor.hueViolet,
+    ),
+  ),
+Marker(
+    markerId: MarkerId('beyoglu'),
+    position: LatLng(41.027636,28.973590),
+    infoWindow: InfoWindow(title: 'Dem'),
+    icon: BitmapDescriptor.defaultMarkerWithHue(
+      BitmapDescriptor.hueViolet,
+    ),
+  ),
+Marker(
+    markerId: MarkerId('bomonti'),
+    position: LatLng(41.060650,28.980637),
+    infoWindow: InfoWindow(title: 'Tohum Otizm'),
+    icon: BitmapDescriptor.defaultMarkerWithHue(
+      BitmapDescriptor.hueViolet,
+    ),
+  ),
+Marker(
+markerId: MarkerId('maçka'),
+position: LatLng(41.047123,28.994465),
+infoWindow: InfoWindow(title: 'TEMA'),
 icon: BitmapDescriptor.defaultMarkerWithHue(
 BitmapDescriptor.hueViolet,
 ),
