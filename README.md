@@ -7,6 +7,8 @@ This application is designed for enabling users to make donations easily.
 !! To activate Google Maps, API KEY should be inserted into android/app/src/main/AndroidManifest.xml file. 
 Please look fro "API KEY HERE" line. !!
 
+Screenshots of application:
+https://drive.google.com/drive/folders/1BpEJZDaod8T5pqibQc3MJsEtkh5O0bsC?usp=sharing
 
 
 ## Getting Started
